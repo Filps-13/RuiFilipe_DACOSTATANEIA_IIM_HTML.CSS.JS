@@ -1,0 +1,135 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color:rgb(17, 17, 17);
+    font-family:Zalando, sans-serif; 
+}
+.nav_header{
+    display: flex;
+    background-color: black;
+    height: 70px;
+    font-size: 45px;
+    font-weight: Bolder;
+    color: white;
+    text-align: 10%;
+    padding: 1vh;
+    margin-top: 1vh;
+    margin: auto;
+}
+.Presentation{
+    margin-left: 1vw;
+}
+.Portfolio{
+    margin-left: 2%;
+}
+.Contact{
+    margin-left: 2%;
+}
+.Accueil{
+    margin-left: 5%;
+}
+.Logo{
+    margin-left: 33%;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.Photo{
+    background-image: url(Presentation.png);
+    background-size: cover;
+    margin: 20px;
+    height: 87vh;
+    border-radius: 100px;
+}
+.Photo_Overlay{
+   position: absolute; 
+}
+h1{
+    font-size: 40px;
+    font-weight: Bolder;
+    color: white;
+    text-align: 10%;
+    margin-top: 6vh;
+    margin-left: 18vw;
+}
+.Diplomes{
+    font-size: 30px;
+    font-weight: Bold;
+    color: white;
+    text-align: 10%;
+    margin-top: 2vh;
+    margin-left: 18vw;
+}
+.P_Diplomes{
+    font-size: 25px;
+    font-weight: light;
+    color: white;
+    text-align: 10%;
+    margin-top: 1vh;
+    margin-left: 18vw;
+}
+.Competences{
+    font-size: 30px;
+    font-weight: Bold;
+    color: white;
+    text-align: 10%;
+    margin-top: 2vh;
+    margin-left: 18vw;
+}
+.P_Competences{
+    font-size: 25px;
+    font-weight: light;
+    color: white;
+    text-align: 10%;
+    margin-top: 1vh;
+    margin-left: 18vw;
+}
+.Langues{
+    font-size: 30px;
+    font-weight: Bold;
+    color: white;
+    text-align: 10%;
+    margin-top: 2vh;
+    margin-left: 18vw;
+}
+.P_Langues{
+    font-size: 25px;
+    font-weight: light;
+    color: white;
+    text-align: 10%;
+    margin-top: 1vh;
+    margin-left: 18vw;
+}
+
+.nav_footer{
+    background-color: black;
+    height: 150px;
+    font-weight: Bolder;
+    color: white;
+}
+.Mentions{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3vh;;
+}
+.Contact_BP{
+    margin-top: 20px;
+    justify-content: space-around;
+    display: flex;
+    font-size: 25px;
+}
+.Retour_haut{
+    margin-top: 10px;
+    justify-content: space-around;
+    display: flex;
+    font-size: 25px;
+}
+.Trait{
+    height: 25px;
+}

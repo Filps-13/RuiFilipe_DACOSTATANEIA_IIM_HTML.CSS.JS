@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color:rgb(17, 17, 17);
+    font-family:Zalando, sans-serif; 
+}
+.nav_header{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.445);
+    height: 70px;
+    font-size: 45px;
+    font-weight: Bolder;
+    color: white;
+    text-align: 10%;
+    padding: 1vh;
+    margin-top: 1vh;
+    margin: auto;
+}
+.Portfolio{
+    margin-left: 1vw;
+}
+.Présentation{
+    margin-left: 5vw;
+}
+.Contact{
+    margin-left: 5vw;
+}
+.Accueil{
+    margin-left: 10vw;
+}
+.Logo{
+    margin-left: 33vw;
+}
+a{
+    color: white;
+}
+
+.Photo{
+    background-image: url(Mécha_page.png);
+    background-size: cover;
+    margin: 20px;
+    height: 115vh;
+    border-radius: 100px;
+}
+.Photo_Overlay{
+   position: absolute; 
+}
+h1{
+    font-size: 70px;
+    font-weight: Bolder;
+    color: white;
+    text-align: 10%;
+    margin-top: 1vh;
+    margin-left: 38vw;
+    background-color: black;
+    width: 30%;
+    text-align: center;
+    border-radius: 20px;
+    border: 5px solid rgb(255, 255, 255);
+    text-decoration: underline;
+}
+
+.nav_footer{
+    background-color: black;
+    height: 150px;
+    font-weight: Bolder;
+    color: white;
+}
+.Mentions{
+    justify-content: space-around;
+    display: flex;
+    padding-top: 3vh;;
+}
+.Contact_BP{
+    margin-top: 20px;
+    justify-content: space-around;
+    display: flex;
+    font-size: 25px;
+}
+.Retour_haut{
+    margin-top: 10px;
+    justify-content: space-around;
+    display: flex;
+    font-size: 25px;
+}
+.Trait{
+    height: 25px;
+}

@@ -1,0 +1,187 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color:rgb(17, 17, 17);
+    font-family:Zalando, sans-serif; 
+}
+.nav_header{
+    display: flex;
+    background-color: black;
+    height: 70px;
+    font-size: 45px;
+    font-weight: Bolder;
+    color: white;
+    text-align: 10%;
+    padding: 1vh;
+    margin-top: 1vh;
+    margin: auto;
+}
+.Portfolio{
+    margin-left: 1vw;
+}
+.Présentation{
+    margin-left: 2%;
+}
+.Contact{
+    margin-left: 2%;
+}
+.Accueil{
+    margin-left: 5%;
+}
+.Logo{
+    margin-left: 33%;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.mécha{
+    background-image: url(Mécha.png);
+    background-size: cover;
+    margin: 50px;
+    height: 87vh;
+    border-radius: 100px;
+}
+.mécha_overlay{
+    position: absolute;
+}
+.mécha_titre{
+    color: white;
+    font-size: 70px;
+    font-weight: bolder;
+    margin-top: 10vh;
+    margin-left: 10vw;
+}
+.mécha_texte{
+    color: white;
+    font-size: 25px;
+    margin-top: 15vh;
+    margin-left: 8vw;
+    text-align: center;
+}
+.Mécha_plus{
+    font-size: 25px;
+    margin-top: 100vh;
+    margin-left: 19vw;
+}
+
+
+.AV{
+    background-image: url(Audiovisuel.png);
+    background-size: cover;
+    margin: 50px;
+    height: 87vh;
+    border-radius: 100px;
+}
+.AV_Overlay{
+    position: absolute;
+}
+.Av_Titre{
+    color: white;
+    font-size: 70px;
+    font-weight: bolder;
+    margin-top: 10vh;
+    margin-left: 50vw;
+}
+.AV_texte{
+    color: white;
+    font-size: 25px;
+    margin-top: 15vh;
+    margin-left: 50vw;
+    text-align: center;
+}
+.AV_plus{
+    font-size: 25px;
+    margin-left: 63vw;
+}
+
+
+.Texturing{
+    background-image: url(Texturing.png);
+    background-size: cover;
+    margin: 50px;
+    height: 87vh;
+    border-radius: 100px;
+}
+.Texturing_Overlay{
+    position: absolute;
+}
+.Texturing_Titre{
+    color: white;
+    font-size: 70px;
+    font-weight: bolder;
+    margin-top: 10vh;
+    margin-left: 12vw;
+}
+.Texturing_Texte{
+    color: white;
+    font-size: 25px;
+    margin-top: 15vh;
+    margin-left: 8vw;
+    text-align: center;
+}
+.Texturing_plus{
+    font-size: 25px;
+    margin-top: 100vh;
+    margin-left: 21vw;
+}
+
+
+.IOT{
+    background-image: url(IOT.png);
+    background-size: cover;
+    margin: 50px;
+    height: 87vh;
+    border-radius: 100px;
+}
+.IOT_Overlay{
+    position: absolute;
+}
+.IOT_Titre{
+    color: white;
+    font-size: 8vh;
+    font-weight: bolder;
+    margin-top: 10vh;
+    margin-left: 62vw;
+}
+.IOT_Texte{
+    color: white;
+    font-size: 3vh;
+    margin-top: 13vh;
+    margin-left: 43vw;
+    text-align: center;
+}
+
+
+.nav_footer{
+    background-color: black;
+    height: 150px;
+    font-weight: Bolder;
+    color: white;
+}
+.Mentions{
+    justify-content: space-around;
+    display: flex;
+    padding-top: 3vh;;
+}
+.Contact_BP{
+    margin-top: 20px;
+    justify-content: space-around;
+    display: flex;
+    font-size: 25px;
+}
+.Retour_haut{
+    margin-top: 10px;
+    justify-content: space-around;
+    display: flex;
+    font-size: 25px;
+}
+.Trait{
+    height: 25px;
+}
