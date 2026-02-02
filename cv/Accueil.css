@@ -6,7 +6,7 @@
 
 body{
     background-color:rgb(17, 17, 17);
-    font-family:Zalando, sans-serif; 
+    font-family:Zalando Sans, sans-serif; 
 }
 
 .Commencont{
@@ -25,6 +25,7 @@ body{
     padding: 10px;
     margin-top: 10px;
     margin: auto;
+    font-family: Lora;
 }
 
 a{
@@ -57,7 +58,7 @@ h1{
     font-weight: Bolder;
     color: white;
     text-align: 10%;
-    margin-top: 25vh;
+    margin-top: 10vh;
     margin-left: 2vw;
 }
 

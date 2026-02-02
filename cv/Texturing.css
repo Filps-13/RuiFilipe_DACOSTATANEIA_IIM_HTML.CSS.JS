@@ -6,11 +6,11 @@
 
 body{
     background-color:rgb(17, 17, 17);
-    font-family:Zalando, sans-serif; 
+    font-family:Zalando Sans, sans-serif; 
 }
 .nav_header{
     display: flex;
-    background-color: rgba(0, 0, 0, 0.445);
+    background-color: black;
     height: 70px;
     font-size: 45px;
     font-weight: Bolder;
@@ -19,24 +19,26 @@ body{
     padding: 1vh;
     margin-top: 1vh;
     margin: auto;
+    font-family: Lora;
 }
 .Portfolio{
     margin-left: 1vw;
 }
 .Présentation{
-    margin-left: 5vw;
+    margin-left: 2%;
 }
 .Contact{
-    margin-left: 5vw;
+    margin-left: 2%;
 }
 .Accueil{
     margin-left: 10vw;
 }
 .Logo{
-    margin-left: 33vw;
+    margin-left: 33%;
 }
 a{
     color: white;
+    text-decoration: none;
 }
 
 .Photo{
@@ -61,15 +63,11 @@ h1{
     text-align: center;
     border-radius: 20px;
     border: 5px solid rgb(255, 255, 255);
-    text-decoration: underline;
-}
-.Photo_Overlay2{
-    position:absolute
 }
 .lien_360{
     font: 25px white;
-    margin-left: 46vw;
-    margin-bottom: 1dvh;
+    margin-left: 47vw;
+    text-decoration: underline;
 }
 
 .nav_footer{
@@ -88,12 +86,14 @@ h1{
     justify-content: space-around;
     display: flex;
     font-size: 25px;
+    text-decoration: underline;
 }
 .Retour_haut{
     margin-top: 10px;
     justify-content: space-around;
     display: flex;
     font-size: 25px;
+    text-decoration: underline;
 }
 .Trait{
     height: 25px;
